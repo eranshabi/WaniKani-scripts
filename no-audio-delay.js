@@ -4,6 +4,7 @@
 // @version      0.1
 // @author       eranshabi
 // @include     /^https?://(www\.)?wanikani\.com/review/session/?$/
+// @homepageURL https://github.com/eranshabi/WaniKani-scripts/blob/master/no-audio-delay.js
 // @grant        none
 // ==/UserScript==
 
