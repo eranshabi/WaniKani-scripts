@@ -14,7 +14,7 @@ var oldSet = $.jStorage.set;
             var ret = oldSet.apply(this, [key, value, options]);
 
             if (key === 'currentItem') {
-                fetch(value.aud)
+                fetch('https://cdn.wanikani.com/subjects/audio/' + value.aud)
             }
 
             return ret;
